@@ -22,8 +22,8 @@ namespace GradeBook
             set { _rollno = value; }
         }
 
-        string _dob;
-        public string Dob
+        DateTime _dob;
+        public DateTime Dob
         {
             get { return _dob; }
             set { _dob = value; }

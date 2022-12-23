@@ -20,7 +20,8 @@ namespace GradeBook
             //Console.WriteLine("\nEnter you standard: ");
             info.Class1 = 5;
             //Console.WriteLine("\nEnter your date of birth: ");
-            info.Dob = "11/01/2004";
+            DateTime d = new DateTime(2004, 01, 11);
+            info.Dob = d;
             Console.WriteLine("\n\t\tE-GRADE BOOK");
             Console.WriteLine("\t\t------------");
             Console.WriteLine(info);
